@@ -1,0 +1,9 @@
+﻿@model Customer
+
+<h1>Edit Customer</h1>
+<form asp-action="Edit">
+    First Name:<input type="text" name="FirstName" asp-for="FirstName" />
+    Last Name:<input type="text" name="LastName" asp-for="LastName" />
+    SSN:<input type="text" name="SSN" asp-for="SSN" />
+    <input type="submit" value="Save" />
+</form>
